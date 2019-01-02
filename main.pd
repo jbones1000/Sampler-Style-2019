@@ -1,4 +1,4 @@
-#N canvas 103 78 1665 865 10;
+#N canvas 104 75 1665 865 10;
 #X declare -path seq3;
 #X text 41 30 Sampler Manager;
 #X obj 27 670 s route-key-rec-select;
@@ -15,7 +15,7 @@ for trig \, 3= recording \, 4=finishing up;
 #X msg 234 579 \; led 1;
 #X obj 91 471 v rec-state;
 #X obj 140 502 hradio 15 1 0 5 empty empty empty 0 -8 0 10 -262144
--1 -1 0;
+-1 -1 2;
 #X obj 214 385 loadbang;
 #X msg 214 407 0;
 #X obj 91 439 t b f;
